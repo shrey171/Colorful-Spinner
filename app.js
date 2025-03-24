@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
   gsap.set(".path", { strokeDasharray: originalDasharray });
   spinners.forEach((spinner, idx) => getAnimation(spinner, idx));
   gsap.from(".wrapper", { autoAlpha: 0 });
-  // GSDevTools.create({ target: ".spinner" });
 });
 
 function getAnimation(spinner, idx) {
